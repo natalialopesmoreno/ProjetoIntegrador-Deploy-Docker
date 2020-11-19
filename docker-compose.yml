@@ -16,7 +16,7 @@ services:
       - "3308:3306"
     networks:
       - generation-network
-  blogpessoal-api:
+  projetointegrador-api:
     restart: always
     build: ./projetointegrador-api
     working_dir: /projetointegrador-api
