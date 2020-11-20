@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   language: java
 sudo: false
 dist: trusty
@@ -8,4 +9,16 @@ addons:
       - oracle-java8-installer
 before_install:
   - chmod +x mvnw
+=======
+  language: java
+sudo: false
+dist: trusty
+jdk: openjdk8
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+before_install:
+  - chmod +x mvnw
+>>>>>>> 4000a4a004d6e321ee8bbee17ae269a51b591136
  
