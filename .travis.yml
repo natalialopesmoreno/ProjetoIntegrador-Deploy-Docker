@@ -8,5 +8,6 @@ addons:
       - oracle-java8-installer
 install:
 - mvn -N io.takari:maven:wrapper
-- ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+git update-index --chmod=+x mvnw
 
