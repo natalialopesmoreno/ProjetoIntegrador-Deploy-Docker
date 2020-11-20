@@ -9,5 +9,5 @@ addons:
 install:
 - mvn -N io.takari:maven:wrapper
 
-git update-index --chmod=+x mvnw
+
 
